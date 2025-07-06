@@ -69,6 +69,7 @@ function getVideoSrc(weatherDesc) {
   else if (weatherDesc.includes('mây thưa') || weatherDesc.includes('mây rải rác')) videoSrc = 'videos/sparse-clouds.mp4';
   else if (weatherDesc.includes('mây cụm')) videoSrc = 'videos/cluster-clouds.mp4';
   else if (weatherDesc.includes('mây đen')) videoSrc = 'videos/dark-clouds.mp4';
+  else if (weatherDesc.includes('quang đãng')) videoSrc = 'videos/clear-sky.mp4';
   else if (weatherDesc.includes('nắng')) videoSrc = 'videos/sunny.mp4';
   else if (weatherDesc.includes('tuyết')) videoSrc = 'videos/snowy.mp4';
   return videoSrc;
